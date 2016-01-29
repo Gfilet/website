@@ -63,10 +63,40 @@ html {
 				 0px 8px 13px blue,
 				 0px 18px 23px black;
 }
-
-h1 {
+.form {
+	max-width: 700px;
+	margin: auto;
+	border: 3px solid;
+	padding-bottom: 5%;
+	border-radius: 30px 30px 30px 30px;
+	background-color: gray;
+}
+#Caption {
+	with: 50%;
+	font: 3.724em arial;
+	font-weight: bold;
+	text-align: center;
+}
+#info label {
+	padding-left: 0%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#info {
+	margin-left: 5%;
+}
+#description {
+	width: 95%;
+	height: auto;
+	
+}
+h1:not(#Caption) {
 	font-weight: 700;
 	font-size: 5em;
+}
+#submitButton {
+	width: 95%;
+	height: 100%;
 }
 
 hr {
