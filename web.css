@@ -64,13 +64,21 @@ html {
 				 0px 8px 13px blue,
 				 0px 18px 23px black;
 }
+
+.contentDiv {
+	height:800px;
+}
 #main-content {
 	background: white;
-	height: 800px;
+	/*height: 800px;*/
 }
-#About {
+#about {
 	background: red;
-	height: 800px;
+	/*height: 800px;*/
+}
+#contact-footer {
+	background: green;
+	height: 900px;
 }
 .form {
 	max-width: 700px;
